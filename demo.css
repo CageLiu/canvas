@@ -1,0 +1,61 @@
+﻿html{overflow:hidden}
+*{margin:0;padding:0}
+body{font-size:12px;background:#000}
+ul,ol{list-style:none}
+a{color:#fff;text-decoration:none}
+img{border:none}
+
+.clearfix{zoom:1}
+.clearfix:after{content:"";display:block;font-size:0;line-height:0;visibility:hidden;height:0;clear:both}
+
+.canvas_box{float:left;position:absolute;left:50%;top:5%;height:83%;min-height:296px;color:#fff;font-size:80px}
+
+
+#canvas{border:3px solid #888;position:relative;right:50%}
+
+.wrap{width:100%;overflow:hidden;zoom:1;position:absolute;bottom:0;height:53px}
+
+.bar_wrap{float:left;position:relative;left:50%;zoom:1;height:53px}
+
+.bar_inner{float:left;position:relative;right:50%;zoom:1;height:42px;background:url(bg_iv_v2.png) repeat-x 0 -67px;overflow:hidden;padding-top:11px}
+
+
+
+.bar_inner li{float:left;height:30px;line-height:30px;text-align:center;background:url(bg_iv_v2.png) no-repeat -8px -133px;padding-left:16px;margin-left:-1px}
+
+.bar_inner a{width:34px;height:34px;float:left;text-indent:-999em;margin-right:16px;background-image:url(bg_iv_v2.png);background-repeat:no-repeat;overflow:hidden}
+.bar_inner a:hover{transform:scale(1.2);-moz-transform:scale(1.2);-webkit-transform:scale(1.2)}
+.bar_inner a:active{transform:scale(1.1);-moz-transform:scale(1.1);-webkit-transform:scale(1.1)}
+
+.pic_list{display:none}
+
+#rotate_left{background-position:-105px -287px}
+#rotate_left:hover{background-position:-105px -322px}
+#rotate_left:active{background-position:-105px -357px}
+
+
+
+#rotate_right{background-position:0 -287px}
+#rotate_right:hover{background-position:0 -322px}
+#rotate_right:active{background-position:0 -357px}
+
+
+#scale{background-position:-35px -287px}
+#scale:hover{background-position:-35px -322px}
+#scale:active{background-position:-35px -357px}
+
+
+#prev{background-position:-35px -182px}
+#prev:hover{background-position:-35px -217px}
+#prev:active{background-position:-35px -252px}
+
+
+
+#next{background-position:-70px -182px}
+#next:hover{background-position:-70px -217px}
+#next:active{background-position:-70px -252px}
+
+
+#close{background-position:-105px -182px}
+#close:hover{background-position:-105px -217px}
+#close:active{background-position:-105px -252px}
